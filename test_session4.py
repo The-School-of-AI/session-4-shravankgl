@@ -6,7 +6,6 @@ import os
 import math
 from decimal import *
 
-import test_session4
 import session4
 from session4 import Qualean
 
