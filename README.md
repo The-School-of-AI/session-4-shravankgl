@@ -166,6 +166,180 @@ This function performs conditional "or" operation
 1) if either of both quealean values is 0 then return true
 2) if both quealean values are 0 then return false
 
+#### **Testcases**
+
+#### **1) test_readme_exists function**:
+This test checks 
+1) if readme file exits
+
+#### **2) test_readme_contents function**:
+This test checks 
+1) if readme file contains more than 500 words
+
+#### **3) test_readme_proper_description function**:
+This test checks 
+1) if readme file contains all words in README_CONTENT_CHECK_FOR array
+
+#### **4) test_readme_file_for_formatting function**:
+This test checks 
+1) if readme file contains minimum 10 markdown highlighting character "#"
+
+#### **5) test_indentations function**:
+This test checks 
+1) if session4 file maintains multiples of 4 spaces indentation
+
+#### **6) test_function_name_had_cap_letter function**:
+This test checks 
+1) if any function definition doesn't contain any capital letter
+
+#### **7) test_qualean_repr function**:
+This test checks 
+1) if __repr__ returns string 'Qualean Class Instance'
+
+#### **8) test_qualean_str function**:
+This test checks 
+1) if __str__ returns string f'Qualean String for number: ' + str(q.number)
+
+#### **9) test_function_qualean_type function**:
+This test checks 
+1) if instance of object is qualean_type
+
+#### **10) test_qualean_decimal_precision function**:
+This test checks 
+1) if non zero qualean contains 10 decimal precision   
+2) if zero qualean contains 1 decimal precision
+
+#### **11) test_function_count function**:
+This test checks 
+1) if test case file contains minimum 25 testcases
+
+#### **12) test_function_repeatations function**:
+This test checks 
+1) if test case file contains repeated testcases
+
+#### **13) test_100_qualeans function**:
+This test checks 
+1) if addition of qualean 100 times is equal to product of 100 and qualean 
+
+#### **14) test_function_sqrt function**:
+This test checks 
+1) if square root of positive qualean is correct
+2) if square root of negative qualean is correct 
+
+#### **15) test_million_qualeans_sum function**:
+This test checks 
+1) if sum of million qualeans moves away from 0 
+This is because value of each qualean is between -1 and 1 and sum of million such values is probably >=1
+
+#### **16) test_million_qualeans_mul function**:
+This test checks 
+1) if product of million qualeans moves towards 0 
+This is because value of each qualean is a decimal between -1 and 1 and prduct of million 0.* values is approximately = 0
+
+#### **17) test_qualean_valid_input function**:
+This test checks 
+1) if value error is raised if number is not in (1, 0, -1)
+
+#### **18) test_invalid_input_valueerror_provides_relevant_message function**:
+This test checks 
+1) if proper message is show to used to use number in (1, 0, -1)
+
+#### **19) test_qualean_validity function**:
+This test checks 
+1) if value of qualean is between 1 and -1
+
+#### **20) test_function_and function**:
+This test checks 
+1) if conditional and operation between 2 qualeans is correct 
+
+#### **21) test_and_q_notdefined function**:
+This test checks 
+1) if conditional and operation between a qualean and None is correct 
+
+#### **22) test_and_q_false function**:
+This test checks 
+1) if conditional and operation between a qualean with number input and without number input is correct 
+
+#### **23) test_function_or function**:
+This test checks 
+1) if conditional or operation between 2 qualeans is correct 
+
+#### **24) test_or_q_notdefined function**:
+This test checks 
+1) if conditional or operation between a qualean and None is correct 
+
+#### **25) test_or_q_false function**:
+This test checks 
+1) if conditional or operation between a qualean with number input and without number input is correct
+
+#### **26) test_function_add function**:
+This test checks 
+1) if addition operation between 2 qualeans is correct 
+
+#### **27) test_function_add_non_qualean function**:
+This test checks 
+1) if addition operation between a qualean and a non qualean is correct
+
+#### **28) test_function_mul function**:
+This test checks 
+1) if multiplication operation between 2 qualeans is correct 
+
+#### **29) test_function_mul_non_qualean function**:
+This test checks 
+1) if multiplication operation between a qualean and a non qualean is correct
+
+#### **30) test_function_ge function**:
+This test checks 
+1) if greater than equal to operation between 2 qualeans is correct 
+
+#### **31) test_function_ge_non_qualean function**:
+This test checks 
+1) if greater than equal to operation between a qualean and a non qualean is correct
+
+#### **32) test_function_gt function**:
+This test checks 
+1) if greater than operation between 2 qualeans is correct 
+
+#### **33) test_function_gt_non_qualean function**:
+This test checks 
+1) if greater than operation between a qualean and a non qualean is correct
+
+#### **34) test_function_le function**:
+This test checks 
+1) if less than equal to operation between 2 qualeans is correct 
+
+#### **35) test_function_le_non_qualean function**:
+This test checks 
+1) if less than equal to operation between a qualean and a non qualean is correct
+
+#### **36) test_function_lt function**:
+This test checks 
+1) if less than operation between 2 qualeans is correct 
+
+#### **37) test_function_lt_non_qualean function**:
+This test checks 
+1) if less than operation between a qualean and a non qualean is correct
+
+#### **38) test_function_with_non_number function**:
+This test checks 
+1) if correct type error is raised for all operators if one of the object is not number
+
+#### **39) test_function_bool function**:
+This test checks 
+1) if overridden bool function is correct
+
+#### **40) test_function_eq function**:
+This test checks 
+1) if overridden eq function is correct
+
+#### **41) test_function_float function**:
+This test checks 
+1) if overridden float function is correct
+
+#### **42) test_function_invertsign function**:
+This test checks 
+1) if overridden invertsign function is correct
+
 
 
 pytest -v (local output)
